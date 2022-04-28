@@ -1,6 +1,6 @@
 // Task 1
 
-// let array = [5, 25, 89, 120, 36]
+let array = [5, 25, 89, 120, 36]
 // array.push('javascript', 'python')
 // console.log(array);
 
@@ -16,8 +16,8 @@
 // array.pop();
 // console.log(array);
 
-// array.splice(2, 0, 'orange');
-// console.log(array);
+let newlength = array.length;
+console.log(newlength);
 
 // Task 2
 
@@ -90,20 +90,20 @@
 
 // Task 7
 
-let item = [12, 'google', 32, null, 'yahoo', 25];
-let result = item.map(function (x) {
-    if (typeof (x) === 'number') {
+// let item = [12, 'google', 32, null, 'yahoo', 25];
+// let result = item.map(function (x) {
+//     if (typeof (x) === 'number') {
 
-        return x * x;
+//         return x * x;
 
-    } else if (typeof (x) === 'string') {
-        return x.toUpperCase();
+//     } else if (typeof (x) === 'string') {
+//         return x.toUpperCase();
 
-    } else {
-        return x;
-    }
-})
-console.log(result);
+//     } else {
+//         return x;
+//     }
+// })
+// console.log(result);
 
 
 
